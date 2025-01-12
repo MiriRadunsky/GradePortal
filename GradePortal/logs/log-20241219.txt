@@ -1,0 +1,95 @@
+2024-12-19 18:23:15.314 +02:00 [INF] Now listening on: https://localhost:7260
+2024-12-19 18:23:15.359 +02:00 [INF] Now listening on: http://localhost:5052
+2024-12-19 18:23:15.430 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-19 18:23:15.432 +02:00 [INF] Hosting environment: Development
+2024-12-19 18:23:15.433 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\GradePortal\GradePortal
+2024-12-19 18:23:16.131 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2024-12-19 18:23:16.422 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 297.2399ms
+2024-12-19 18:23:16.431 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2024-12-19 18:23:16.431 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-19 18:23:16.438 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 7.7976ms
+2024-12-19 18:23:16.448 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 18.2655ms
+2024-12-19 18:23:16.448 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2024-12-19 18:23:16.524 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.2251ms
+2024-12-19 18:23:16.592 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2024-12-19 18:23:16.609 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-19 18:23:16.631 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2024-12-19 18:23:16.632 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/favicon-32x32.png - null null
+2024-12-19 18:23:16.644 +02:00 [INF] The file /favicon-32x32.png was not modified
+2024-12-19 18:23:16.648 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/favicon-32x32.png - 304 null image/png 16.5427ms
+2024-12-19 18:23:16.653 +02:00 [INF] Route matched with {action = "HandleError", controller = "ErrorsHendler"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleError() on controller GradePortal.Controllers.ErrorsHendlerController (GradePortal).
+2024-12-19 18:23:16.667 +02:00 [ERR] Ambiguous HTTP method for action - GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+2024-12-19 18:23:16.676 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-19 18:23:16.699 +02:00 [INF] Executed action GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal) in 34.4055ms
+2024-12-19 18:23:16.701 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2024-12-19 18:23:16.703 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 501 null application/problem+json; charset=utf-8 110.8282ms
+2024-12-19 18:23:45.141 +02:00 [INF] Now listening on: https://localhost:7260
+2024-12-19 18:23:45.168 +02:00 [INF] Now listening on: http://localhost:5052
+2024-12-19 18:23:45.204 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-19 18:23:45.206 +02:00 [INF] Hosting environment: Development
+2024-12-19 18:23:45.207 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\GradePortal\GradePortal
+2024-12-19 18:23:45.830 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2024-12-19 18:23:46.031 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 207.6264ms
+2024-12-19 18:23:46.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2024-12-19 18:23:46.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-19 18:23:46.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2024-12-19 18:23:46.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 27.0402ms
+2024-12-19 18:23:46.076 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 37.8682ms
+2024-12-19 18:23:46.116 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.5837ms
+2024-12-19 18:23:46.174 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2024-12-19 18:23:46.202 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.2313ms
+2024-12-19 22:50:28.956 +02:00 [INF] Now listening on: https://localhost:7260
+2024-12-19 22:50:29.156 +02:00 [INF] Now listening on: http://localhost:5052
+2024-12-19 22:50:29.370 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-19 22:50:29.372 +02:00 [INF] Hosting environment: Development
+2024-12-19 22:50:29.374 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\GradePortal\GradePortal
+2024-12-19 22:50:29.661 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2024-12-19 22:50:29.958 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 305.459ms
+2024-12-19 22:50:29.975 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-19 22:50:29.976 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2024-12-19 22:50:29.987 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2024-12-19 22:50:30.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 221.8749ms
+2024-12-19 22:50:30.220 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 244.3645ms
+2024-12-19 22:50:30.265 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 278.3174ms
+2024-12-19 22:50:30.333 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2024-12-19 22:50:30.359 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-19 22:50:30.393 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2024-12-19 22:50:30.415 +02:00 [INF] Route matched with {action = "HandleError", controller = "ErrorsHendler"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleError() on controller GradePortal.Controllers.ErrorsHendlerController (GradePortal).
+2024-12-19 22:50:30.427 +02:00 [ERR] Ambiguous HTTP method for action - GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+2024-12-19 22:50:30.439 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-19 22:50:30.482 +02:00 [INF] Executed action GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal) in 57.399ms
+2024-12-19 22:50:30.485 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2024-12-19 22:50:30.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 501 null application/problem+json; charset=utf-8 155.9247ms
+2024-12-19 23:02:20.968 +02:00 [INF] Now listening on: https://localhost:7260
+2024-12-19 23:02:21.023 +02:00 [INF] Now listening on: http://localhost:5052
+2024-12-19 23:02:21.085 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-19 23:02:21.087 +02:00 [INF] Hosting environment: Development
+2024-12-19 23:02:21.088 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\GradePortal\GradePortal
+2024-12-19 23:02:21.757 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2024-12-19 23:02:21.968 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 216.1678ms
+2024-12-19 23:02:22.002 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2024-12-19 23:02:22.011 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 8.9223ms
+2024-12-19 23:02:22.019 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-19 23:02:22.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 14.1805ms
+2024-12-19 23:02:22.065 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2024-12-19 23:02:22.106 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.9401ms
+2024-12-19 23:02:22.151 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2024-12-19 23:02:22.177 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.8529ms

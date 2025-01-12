@@ -1,0 +1,115 @@
+2025-01-08 16:57:54.669 +02:00 [INF] Now listening on: https://localhost:7260
+2025-01-08 16:57:54.717 +02:00 [INF] Now listening on: http://localhost:5052
+2025-01-08 16:57:54.807 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-08 16:57:54.810 +02:00 [INF] Hosting environment: Development
+2025-01-08 16:57:54.811 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradePortal
+2025-01-08 16:57:56.804 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-01-08 16:57:57.428 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 639.7387ms
+2025-01-08 16:57:57.521 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2025-01-08 16:57:57.536 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 14.0903ms
+2025-01-08 16:57:57.564 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-08 16:57:57.570 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-01-08 16:57:57.639 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 75.95ms
+2025-01-08 16:57:57.753 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 182.7783ms
+2025-01-08 16:57:57.862 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-01-08 16:57:57.894 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.5072ms
+2025-01-08 16:59:03.588 +02:00 [INF] Now listening on: https://localhost:7260
+2025-01-08 16:59:03.680 +02:00 [INF] Now listening on: http://localhost:5052
+2025-01-08 16:59:03.783 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-08 16:59:03.786 +02:00 [INF] Hosting environment: Development
+2025-01-08 16:59:03.788 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradePortal
+2025-01-08 16:59:04.832 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-01-08 16:59:05.217 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 397.6294ms
+2025-01-08 16:59:05.313 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2025-01-08 16:59:05.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-08 16:59:05.339 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 26.5243ms
+2025-01-08 16:59:05.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2025-01-08 16:59:05.372 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 33.39ms
+2025-01-08 16:59:05.475 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 136.2441ms
+2025-01-08 16:59:05.542 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-01-08 16:59:05.580 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.1722ms
+2025-01-08 16:59:30.481 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/StudentManager/AddStudent?ID=333333333&Name=sara&Password=123435w - null 0
+2025-01-08 16:59:30.492 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.StudentManagerController.AddStudent (GradePortal)'
+2025-01-08 16:59:30.534 +02:00 [INF] Route matched with {action = "AddStudent", controller = "StudentManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddStudent(GradePortal.Modols.M_Student) on controller GradePortal.Controllers.StudentManagerController (GradePortal).
+2025-01-08 16:59:36.628 +02:00 [INF] Executed action GradePortal.Controllers.StudentManagerController.AddStudent (GradePortal) in 6084.7255ms
+2025-01-08 16:59:36.632 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.StudentManagerController.AddStudent (GradePortal)'
+2025-01-08 16:59:36.639 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+GradeDO.Exceptions.StudentAlradyExsistException: The student with Id 333333333 aleady exsist.
+   at GradeDO.Students.AddStudent(Student student) in C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\Students.cs:line 23
+   at GradePortal.Controllers.StudentManagerController.AddStudent(M_Student student) in C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradePortal\Controllers\StudentManagerController.cs:line 39
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-01-08 16:59:36.760 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2025-01-08 16:59:36.764 +02:00 [INF] Route matched with {action = "HandleError", controller = "ErrorsHendler"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleError() on controller GradePortal.Controllers.ErrorsHendlerController (GradePortal).
+2025-01-08 16:59:36.770 +02:00 [ERR] The student with Id 333333333 aleady exsist.
+2025-01-08 16:59:36.772 +02:00 [WRN] Student alrady exsist
+2025-01-08 16:59:36.780 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ObjectResult'.
+2025-01-08 16:59:36.811 +02:00 [INF] Executed action GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal) in 42.364ms
+2025-01-08 16:59:36.813 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2025-01-08 16:59:36.818 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/StudentManager/AddStudent?ID=333333333&Name=sara&Password=123435w - 400 null application/json; charset=utf-8 6336.4522ms
+2025-01-08 16:59:50.106 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/StudentManager/AddStudent?ID=666666666&Name=sara&Password=123435w - null 0
+2025-01-08 16:59:50.117 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.StudentManagerController.AddStudent (GradePortal)'
+2025-01-08 16:59:50.120 +02:00 [INF] Route matched with {action = "AddStudent", controller = "StudentManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddStudent(GradePortal.Modols.M_Student) on controller GradePortal.Controllers.StudentManagerController (GradePortal).
+2025-01-08 16:59:50.126 +02:00 [INF] added a student with ID666666666
+2025-01-08 16:59:50.132 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-01-08 16:59:50.134 +02:00 [INF] Executed action GradePortal.Controllers.StudentManagerController.AddStudent (GradePortal) in 9.315ms
+2025-01-08 16:59:50.136 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.StudentManagerController.AddStudent (GradePortal)'
+2025-01-08 16:59:50.139 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/StudentManager/AddStudent?ID=666666666&Name=sara&Password=123435w - 200 0 null 34.3594ms
+2025-01-08 17:00:17.784 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/GradeManager/CalcFinalGrade?id=666666666 - null null
+2025-01-08 17:00:17.808 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.GradeManagerController.CalcFinalGrade (GradePortal)'
+2025-01-08 17:00:17.811 +02:00 [INF] Route matched with {action = "CalcFinalGrade", controller = "GradeManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CalcFinalGrade(System.String) on controller GradePortal.Controllers.GradeManagerController (GradePortal).
+2025-01-08 17:00:17.822 +02:00 [INF]   Calc final grade for student with ID: 666666666
+2025-01-08 17:00:35.662 +02:00 [INF] Executed action GradePortal.Controllers.GradeManagerController.CalcFinalGrade (GradePortal) in 17847.6106ms
+2025-01-08 17:00:35.667 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.GradeManagerController.CalcFinalGrade (GradePortal)'
+2025-01-08 17:00:35.670 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at GradePortal.Services.GradeManager.CalculateFinalGrade(String id) in C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradePortal\Services\GradeManager.cs:line 34
+   at GradePortal.Controllers.GradeManagerController.CalcFinalGrade(String id) in C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradePortal\Controllers\GradeManagerController.cs:line 75
+   at lambda_method7(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-01-08 17:00:35.692 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2025-01-08 17:00:35.694 +02:00 [INF] Route matched with {action = "HandleError", controller = "ErrorsHendler"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleError() on controller GradePortal.Controllers.ErrorsHendlerController (GradePortal).
+2025-01-08 17:00:35.697 +02:00 [ERR] Object reference not set to an instance of an object.
+2025-01-08 17:00:35.700 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ObjectResult'.
+2025-01-08 17:00:35.703 +02:00 [INF] Executed action GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal) in 5.0952ms
+2025-01-08 17:00:35.705 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2025-01-08 17:00:35.708 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/GradeManager/CalcFinalGrade?id=666666666 - 400 null application/json; charset=utf-8 17924.4456ms
+2025-01-08 17:00:46.639 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/GradeManager/CalcFinalGrade?id=111111111 - null null
+2025-01-08 17:00:46.647 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.GradeManagerController.CalcFinalGrade (GradePortal)'
+2025-01-08 17:00:46.649 +02:00 [INF] Route matched with {action = "CalcFinalGrade", controller = "GradeManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CalcFinalGrade(System.String) on controller GradePortal.Controllers.GradeManagerController (GradePortal).
+2025-01-08 17:00:46.653 +02:00 [INF]   Calc final grade for student with ID: 111111111
+2025-01-08 17:00:46.655 +02:00 [INF]  The Calc final grade student with ID: 111111111 is 77
+2025-01-08 17:00:46.656 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2025-01-08 17:00:46.667 +02:00 [INF] Executed action GradePortal.Controllers.GradeManagerController.CalcFinalGrade (GradePortal) in 14.4068ms
+2025-01-08 17:00:46.669 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.GradeManagerController.CalcFinalGrade (GradePortal)'
+2025-01-08 17:00:46.671 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/GradeManager/CalcFinalGrade?id=111111111 - 200 null application/json; charset=utf-8 33.3501ms

@@ -1,0 +1,13 @@
+2025-01-12 12:57:52.162 +02:00 [INF] Now listening on: https://localhost:7260
+2025-01-12 12:57:52.219 +02:00 [INF] Now listening on: http://localhost:5052
+2025-01-12 12:57:52.295 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-12 12:57:52.298 +02:00 [INF] Hosting environment: Development
+2025-01-12 12:57:52.300 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradePortal
+2025-01-12 12:57:59.213 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2025-01-12 12:58:04.491 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 5286.5937ms
+2025-01-12 12:58:04.532 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-12 12:58:04.559 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2025-01-12 12:58:04.629 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 27.9444ms
+2025-01-12 12:58:04.637 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 105.8782ms
+2025-01-12 12:58:04.686 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2025-01-12 12:58:04.724 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.9298ms

@@ -1,0 +1,90 @@
+2024-12-13 13:06:09.396 +02:00 [INF] Now listening on: https://localhost:7260
+2024-12-13 13:06:09.574 +02:00 [INF] Now listening on: http://localhost:5052
+2024-12-13 13:06:09.698 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 13:06:09.701 +02:00 [INF] Hosting environment: Development
+2024-12-13 13:06:09.704 +02:00 [INF] Content root path: C:\Users\User\Desktop\סמינר\server\GradePortal\GradePortal
+2024-12-13 13:06:12.215 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2024-12-13 13:06:12.672 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 469.9248ms
+2024-12-13 13:06:12.694 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-13 13:06:12.697 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui.css - null null
+2024-12-13 13:06:12.695 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-13 13:06:12.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2024-12-13 13:06:12.740 +02:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-12-13 13:06:12.740 +02:00 [INF] The file /swagger-ui.css was not modified
+2024-12-13 13:06:12.748 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 54.9337ms
+2024-12-13 13:06:12.755 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui.css - 304 null text/css 60.4963ms
+2024-12-13 13:06:12.760 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 65.8513ms
+2024-12-13 13:06:12.748 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 54.652ms
+2024-12-13 13:06:12.700 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui-bundle.js - null null
+2024-12-13 13:06:12.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.css - null null
+2024-12-13 13:06:12.768 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2024-12-13 13:06:12.796 +02:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-12-13 13:06:12.802 +02:00 [INF] The file /index.css was not modified
+2024-12-13 13:06:12.810 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui-bundle.js - 304 null text/javascript 113.0898ms
+2024-12-13 13:06:12.813 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.css - 304 null text/css 120.3283ms
+2024-12-13 13:06:12.919 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 151.5913ms
+2024-12-13 13:06:13.164 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2024-12-13 13:06:13.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.2873ms
+2024-12-13 13:06:24.683 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/api/StudentManager/GetAllStudents - null null
+2024-12-13 13:06:24.697 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.StudentManagerController.GetAllStudents (GradePortal)'
+2024-12-13 13:06:24.733 +02:00 [INF] Route matched with {action = "GetAllStudents", controller = "StudentManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllStudents() on controller GradePortal.Controllers.StudentManagerController (GradePortal).
+2024-12-13 13:06:24.751 +02:00 [INF] display all students
+2024-12-13 13:06:24.762 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GradeDO.Student, GradeDO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-13 13:06:24.801 +02:00 [INF] Executed action GradePortal.Controllers.StudentManagerController.GetAllStudents (GradePortal) in 52.6935ms
+2024-12-13 13:06:24.808 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.StudentManagerController.GetAllStudents (GradePortal)'
+2024-12-13 13:06:24.811 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/api/StudentManager/GetAllStudents - 200 null application/json; charset=utf-8 129.4933ms
+2024-12-13 13:06:38.931 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/api/StudentManager/GetStudent?studentId=11111111 - null null
+2024-12-13 13:06:38.939 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.StudentManagerController.GetStudent (GradePortal)'
+2024-12-13 13:06:38.954 +02:00 [INF] Route matched with {action = "GetStudent", controller = "StudentManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStudent(System.String) on controller GradePortal.Controllers.StudentManagerController (GradePortal).
+2024-12-13 13:06:39.010 +02:00 [INF] display a student with ID11111111
+2024-12-13 13:06:44.829 +02:00 [INF] Executed action GradePortal.Controllers.StudentManagerController.GetStudent (GradePortal) in 5870.1985ms
+2024-12-13 13:06:44.835 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.StudentManagerController.GetStudent (GradePortal)'
+2024-12-13 13:06:44.843 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+GradeDO.Exceptions.StudentNotExsistException: The student with Id 11111111 not exsist.
+   at GradeDO.Students.GetStudent(String studentId) in C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\Students.cs:line 38
+   at GradePortal.Controllers.StudentManagerController.GetStudent(String studentId) in C:\Users\User\Desktop\סמינר\server\GradePortal\GradePortal\Controllers\StudentManagerController.cs:line 92
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-13 13:06:45.008 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2024-12-13 13:06:45.012 +02:00 [INF] Route matched with {action = "HandleError", controller = "ErrorsHendler"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HandleError() on controller GradePortal.Controllers.ErrorsHendlerController (GradePortal).
+2024-12-13 13:06:45.019 +02:00 [ERR] The student with Id 11111111 not exsist.
+2024-12-13 13:06:45.021 +02:00 [WRN] Student not exsist
+2024-12-13 13:06:45.025 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ObjectResult'.
+2024-12-13 13:06:45.060 +02:00 [INF] Executed action GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal) in 42.9343ms
+2024-12-13 13:06:45.063 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.ErrorsHendlerController.HandleError (GradePortal)'
+2024-12-13 13:06:45.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/api/StudentManager/GetStudent?studentId=11111111 - 400 null application/json; charset=utf-8 6136.2236ms
+2024-12-13 13:07:20.053 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/ViewGrades/GetStudentFanialGrade?id=111111111&password=111111111 - null null
+2024-12-13 13:07:20.070 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.ViewGradesController.GetStudentFanialGrade (GradePortal)'
+2024-12-13 13:07:20.075 +02:00 [INF] Route matched with {action = "GetStudentFanialGrade", controller = "ViewGrades"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStudentFanialGrade(System.String, System.String) on controller GradePortal.Controllers.ViewGradesController (GradePortal).
+2024-12-13 13:07:20.094 +02:00 [INF] The student with ID number 111111111 is trying to log into the system
+2024-12-13 13:07:20.097 +02:00 [INF] The student with id 111111111 logged into the system
+2024-12-13 13:07:20.099 +02:00 [INF] The student with the ID number111111111 is trying to retrieve her final grade.
+2024-12-13 13:07:20.103 +02:00 [INF] The final grade for the student with ID 111111111 is 77.
+2024-12-13 13:07:20.108 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2024-12-13 13:07:20.118 +02:00 [INF] Executed action GradePortal.Controllers.ViewGradesController.GetStudentFanialGrade (GradePortal) in 37.561ms
+2024-12-13 13:07:20.122 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.ViewGradesController.GetStudentFanialGrade (GradePortal)'
+2024-12-13 13:07:20.125 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/ViewGrades/GetStudentFanialGrade?id=111111111&password=111111111 - 200 null application/json; charset=utf-8 72.47ms
+2024-12-13 13:07:25.093 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/ViewGrades/GetStudentFanialGrade?id=111111111&password=11111111 - null null
+2024-12-13 13:07:25.120 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.ViewGradesController.GetStudentFanialGrade (GradePortal)'
+2024-12-13 13:07:25.123 +02:00 [INF] Route matched with {action = "GetStudentFanialGrade", controller = "ViewGrades"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetStudentFanialGrade(System.String, System.String) on controller GradePortal.Controllers.ViewGradesController (GradePortal).
+2024-12-13 13:07:25.131 +02:00 [INF] The student with ID number 111111111 is trying to log into the system
+2024-12-13 13:07:25.134 +02:00 [INF] Access Denied
+2024-12-13 13:07:25.140 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-12-13 13:07:25.144 +02:00 [INF] Executed action GradePortal.Controllers.ViewGradesController.GetStudentFanialGrade (GradePortal) in 13.9605ms
+2024-12-13 13:07:25.150 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.ViewGradesController.GetStudentFanialGrade (GradePortal)'
+2024-12-13 13:07:25.153 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/ViewGrades/GetStudentFanialGrade?id=111111111&password=11111111 - 404 null text/plain; charset=utf-8 60.2761ms

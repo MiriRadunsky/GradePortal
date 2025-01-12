@@ -1,0 +1,55 @@
+2024-12-09 00:11:55.627 +02:00 [INF] Now listening on: https://localhost:7260
+2024-12-09 00:11:55.684 +02:00 [INF] Now listening on: http://localhost:5052
+2024-12-09 00:11:55.688 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 00:11:55.691 +02:00 [INF] Hosting environment: Development
+2024-12-09 00:11:55.692 +02:00 [INF] Content root path: D:\User\Downloads\GradePortal\GradePortal
+2024-12-09 00:11:58.251 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2024-12-09 00:11:58.712 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 469.1256ms
+2024-12-09 00:11:58.823 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2024-12-09 00:11:58.833 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 10.0748ms
+2024-12-09 00:11:58.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-09 00:11:58.844 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2024-12-09 00:11:58.865 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 24.4952ms
+2024-12-09 00:11:59.106 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 262.0791ms
+2024-12-09 00:11:59.234 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2024-12-09 00:11:59.468 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.9598ms
+2024-12-09 00:12:17.801 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7260/GradeManager/uploadGrades - null 0
+2024-12-09 00:12:17.815 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.GradeManagerController.UploadGrades (GradePortal)'
+2024-12-09 00:12:17.850 +02:00 [INF] Route matched with {action = "UploadGrades", controller = "GradeManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadGrades() on controller GradePortal.Controllers.GradeManagerController (GradePortal).
+2024-12-09 00:12:17.874 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-12-09 00:12:17.881 +02:00 [INF] Executed action GradePortal.Controllers.GradeManagerController.UploadGrades (GradePortal) in 18.0388ms
+2024-12-09 00:12:17.885 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.GradeManagerController.UploadGrades (GradePortal)'
+2024-12-09 00:12:17.888 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7260/GradeManager/uploadGrades - 200 0 null 87.7921ms
+2024-12-09 00:12:46.395 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7260/GradeManager/SetGrade?id=11111111 - application/json 125
+2024-12-09 00:12:46.414 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.GradeManagerController.SetGradeStudent (GradePortal)'
+2024-12-09 00:12:46.441 +02:00 [INF] Route matched with {action = "SetGradeStudent", controller = "GradeManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SetGradeStudent(System.String, GradePortal.Modols.M_Grade) on controller GradePortal.Controllers.GradeManagerController (GradePortal).
+2024-12-09 00:12:46.526 +02:00 [INF] trying to edit a grade
+2024-12-09 00:12:46.531 +02:00 [INF] The grade for student with ID 11111111 was successfully updated.
+2024-12-09 00:12:46.532 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-12-09 00:12:46.534 +02:00 [INF] Executed action GradePortal.Controllers.GradeManagerController.SetGradeStudent (GradePortal) in 85.34ms
+2024-12-09 00:12:46.537 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.GradeManagerController.SetGradeStudent (GradePortal)'
+2024-12-09 00:12:46.540 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7260/GradeManager/SetGrade?id=11111111 - 200 0 null 146.3945ms
+2024-12-09 00:12:57.633 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/GradeManager/GradesSpecificExe?ExeNumber=2 - null null
+2024-12-09 00:12:57.640 +02:00 [INF] Executing endpoint 'GradePortal.Controllers.GradeManagerController.GradesSpecificExe (GradePortal)'
+2024-12-09 00:12:57.646 +02:00 [INF] Route matched with {action = "GradesSpecificExe", controller = "GradeManager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GradesSpecificExe(Int32) on controller GradePortal.Controllers.GradeManagerController (GradePortal).
+2024-12-09 00:12:57.655 +02:00 [INF] Grades specific ex: 2
+2024-12-09 00:12:57.659 +02:00 [INF] Grades for exa2
+2024-12-09 00:12:57.668 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GradeDO.Grade, GradeDO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-09 00:12:57.689 +02:00 [INF] Executed action GradePortal.Controllers.GradeManagerController.GradesSpecificExe (GradePortal) in 37.922ms
+2024-12-09 00:12:57.693 +02:00 [INF] Executed endpoint 'GradePortal.Controllers.GradeManagerController.GradesSpecificExe (GradePortal)'
+2024-12-09 00:12:57.696 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/GradeManager/GradesSpecificExe?ExeNumber=2 - 200 null application/json; charset=utf-8 63.1379ms
+2024-12-09 01:14:29.398 +02:00 [INF] Now listening on: https://localhost:7260
+2024-12-09 01:14:29.466 +02:00 [INF] Now listening on: http://localhost:5052
+2024-12-09 01:14:29.470 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 01:14:29.473 +02:00 [INF] Hosting environment: Development
+2024-12-09 01:14:29.474 +02:00 [INF] Content root path: D:\User\Downloads\GradePortal\GradePortal
+2024-12-09 01:14:30.295 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - null null
+2024-12-09 01:14:30.610 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - 200 null text/html;charset=utf-8 324.4736ms
+2024-12-09 01:14:30.622 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-09 01:14:30.622 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.js - null null
+2024-12-09 01:14:30.646 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.js - 200 null application/javascript;charset=utf-8 19.3593ms
+2024-12-09 01:14:30.665 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 42.5108ms
+2024-12-09 01:14:30.665 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - null null
+2024-12-09 01:14:30.761 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.1675ms
+2024-12-09 01:14:30.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - null null
+2024-12-09 01:14:31.277 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 369.6635ms

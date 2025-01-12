@@ -1,0 +1,50 @@
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfoInputs.cache
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfo.cs
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.csproj.CoreCompileInputs.cache
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.deps.json
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.dll
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.pdb
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.dll
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\refint\GradeDO.dll
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.pdb
+D:\לימודים תשפה\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\ref\GradeDO.dll
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.deps.json
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.dll
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.pdb
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfoInputs.cache
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfo.cs
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.csproj.CoreCompileInputs.cache
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.dll
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\refint\GradeDO.dll
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.pdb
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\ref\GradeDO.dll
+D:\User\Downloads\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.csproj.AssemblyReference.cache
+E:\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.dll
+E:\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\refint\GradeDO.dll
+E:\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.pdb
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.deps.json
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.dll
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\bin\Debug\net8.0\GradeDO.pdb
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfo.cs
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.dll
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\refint\GradeDO.dll
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\GradeDO.pdb
+C:\Users\User\Desktop\סמינר\server\GradePortal\GradeDAL\GradeDO\obj\Debug\net8.0\ref\GradeDO.dll
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\bin\Debug\net8.0\GradeDO.deps.json
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\bin\Debug\net8.0\GradeDO.dll
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\bin\Debug\net8.0\GradeDO.pdb
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\GradeDO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\GradeDO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\GradeDO.AssemblyInfo.cs
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\GradeDO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\GradeDO.dll
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\refint\GradeDO.dll
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\GradeDO.pdb
+C:\Users\User\Desktop\סמינר\server\HM\GradePortal\GradeDO\obj\Debug\net8.0\ref\GradeDO.dll
